@@ -1,5 +1,5 @@
-# 1. Берем официальный SDK от Microsoft для сборки проекта
-FROM ://microsoft.com AS build-env
+# 1. Используем официальный образ .NET SDK напрямую из реестра Docker Hub
+FROM dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
 # 2. Копируем файлы проекта и восстанавливаем зависимости NuGet
@@ -10,13 +10,13 @@ RUN dotnet restore
 COPY . ./
 RUN dotnet publish -c Release -o out
 
-# 4. Создаем финальный легкий образ для запуска
-FROM ://microsoft.com
+# 4. Создаем финальный легкий образ для запуска приложения
+FROM dotnet/runtime:8.0
 WORKDIR /app
 COPY --from=build-env /app/out .
 
-# 5. Открываем порт 8080 наружу для сети Fleck
+# 5. Открываем порт 8080 наружу
 EXPOSE 8080
 
 # 6. Команда для запуска сервера
-ENTRYPOINT ["dotnet", "HiveServer.dll"]
+ENTRYPOINT ["dotnet", "hiveServer.dll"]
