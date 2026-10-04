@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gM2q3EPiu18=",
+  "success": true,
+  "projectFilePath": "F:\\hiveFiles\\HiveServer\\hiveServer\\hiveServer\\hiveServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Incognitus\\.nuget\\packages\\fleck\\1.2.0\\fleck.1.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

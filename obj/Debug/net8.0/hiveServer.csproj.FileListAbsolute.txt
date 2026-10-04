@@ -1,0 +1,17 @@
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\bin\Debug\net8.0\hiveServer.exe
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\bin\Debug\net8.0\hiveServer.deps.json
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\bin\Debug\net8.0\hiveServer.runtimeconfig.json
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\bin\Debug\net8.0\hiveServer.dll
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\bin\Debug\net8.0\hiveServer.pdb
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\bin\Debug\net8.0\Fleck.dll
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\obj\Debug\net8.0\hiveServer.csproj.AssemblyReference.cache
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\obj\Debug\net8.0\hiveServer.GeneratedMSBuildEditorConfig.editorconfig
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\obj\Debug\net8.0\hiveServer.AssemblyInfoInputs.cache
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\obj\Debug\net8.0\hiveServer.AssemblyInfo.cs
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\obj\Debug\net8.0\hiveServer.csproj.CoreCompileInputs.cache
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\obj\Debug\net8.0\hiveServer.csproj.Up2Date
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\obj\Debug\net8.0\hiveServer.dll
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\obj\Debug\net8.0\refint\hiveServer.dll
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\obj\Debug\net8.0\hiveServer.pdb
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\obj\Debug\net8.0\hiveServer.genruntimeconfig.cache
+F:\hiveFiles\HiveServer\hiveServer\hiveServer\obj\Debug\net8.0\ref\hiveServer.dll
