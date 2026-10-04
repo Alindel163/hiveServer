@@ -1,5 +1,5 @@
-# 1. Сборка приложения
-FROM dotnet/sdk:8.0 AS build-env
+# 1. Сборка приложения через официальный .NET SDK
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
 # Копируем проект и восстанавливаем зависимости NuGet
@@ -10,8 +10,8 @@ RUN dotnet restore
 COPY . ./
 RUN dotnet publish -c Release -o out
 
-# 2. Запуск приложения (финальный легкий контейнер)
-FROM dotnet/runtime:8.0
+# 2. Финальный образ для запуска приложения
+FROM ://microsoft.com
 WORKDIR /app
 COPY --from=build-env /app/out .
 
